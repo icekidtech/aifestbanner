@@ -29,14 +29,15 @@ This project is a web platform designed for participants of AI Fest Africa to cr
 ```bash
 git clone https://github.com/yourusername/aifest-africa-banner-generator.git
 cd aifest-africa-banner-generator
+```
 
-2. Create a virtual environment
+## 2. Create a virtual environment
 
 It’s recommended to create a virtual environment to manage dependencies.
 
 python -m venv venv
 
-3. Activate the virtual environment
+## 3. Activate the virtual environment
 
 Windows:
 
@@ -47,14 +48,14 @@ macOS/Linux:
 source venv/bin/activate
 
 
-4. Install the required dependencies
+## 4. Install the required dependencies
 
 pip install -r requirements.txt
 
 
 ---
 
-Configuration
+## Configuration
 
 1. Set up media files (for image uploads)
 
@@ -82,7 +83,7 @@ if settings.DEBUG:
 
 ---
 
-Running the Project
+## Running the Project
 
 1. Run migrations to set up the database:
 
@@ -109,7 +110,7 @@ python manage.py runserver
 
 ---
 
-Usage
+## Usage
 
 1. Upload Your Image: On the banner creation page, users can upload their photo.
 
@@ -127,7 +128,7 @@ Usage
 
 ---
 
-Deployment
+## Deployment
 
 1. Set Up for Production
 
@@ -162,21 +163,21 @@ AWS_STORAGE_BUCKET_NAME = 'your-bucket-name'
 
 ---
 
-Contributing
+## Contributing
 
 We welcome contributions! Please fork the repository, create a new branch, and submit a pull request with your changes.
 
 
 ---
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 ---
 
-Acknowledgments
+## Acknowledgments
 
 Django (Web framework)
 
