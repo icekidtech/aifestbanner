@@ -1,0 +1,28 @@
+#Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+#Virtual Environment
+venv/
+.env/
+
+#Django-specific
+*.log
+*.pot
+*.pyc
+*.db
+*.sqlites3
+/media/
+*.bak
+
+#IDE files
+.idea/
+.vscode/
+
+#os-specific files
+.DS_Store
+Thumbs.db
+
+#Environment variables (e.g .env files for secret keys)
+.env
