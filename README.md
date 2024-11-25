@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 Ensure that the MEDIA_URL and MEDIA_ROOT are correctly configured in settings.py:
 
-# settings.py
+settings.py
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
