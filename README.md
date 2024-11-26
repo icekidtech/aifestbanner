@@ -27,8 +27,8 @@ This project is a web platform designed for participants of AI Fest Africa to cr
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/aifest-africa-banner-generator.git
-cd aifest-africa-banner-generator
+git clone https://github.com/icekidtech/aifestbanner.git
+cd aifestbanner
 ```
 
 ## 2. Create a virtual environment
